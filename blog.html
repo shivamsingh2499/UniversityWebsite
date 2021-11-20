@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <section class="sub-header">
+         <nav>
+             <a href="index.html"><img src="./logo.png" alt=""></a>
+             <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                 </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showmenu()"></i>
+
+         </nav>
+<h1>Our Certificate & Online Programs For 2021</h1>
+     
+     </section>
+    <!--    blog -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque delectus soluta doloribus, quidem suscipit ipsa reprehenderit dolor amet, placeat provident accusantium voluptas esse nesciunt voluptates omnis architecto, magnam id laborum dolorum similique quam totam rerum? Sequi consequuntur eius suscipit, amet in laboriosam ut, ipsam animi illo maxime, libero obcaecati.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, vero consectetur, incidunt animi reiciendis illo dolorem officia nostrum totam placeat reprehenderit! Recusandae nemo numquam libero optio dolores fuga excepturi ipsa. Magni quas blanditiis veniam, veritatis magnam aspernatur repellat. Cupiditate assumenda natus ipsa recusandae sapiente odit atque a odio aut repellat consequatur suscipit, velit maxime reprehenderit labore possimus autem ducimus accusantium, inventore aliquam iusto harum, cumque sit rem. <br> Molestias sint quos animi mollitia harum maiores, voluptatem ab consequuntur fuga vitae iusto laborum amet praesentium tempore voluptatibus ad voluptates ducimus at odit quam, sapiente ratione. Et, voluptates eius. Sed aut mollitia perspiciatis?
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad necessitatibus omnis unde dolorem illo corrupti ea accusantium veritatis molestias est explicabo qui dolores impedit accusamus vitae in iure perferendis, quo eveniet sunt repellendus voluptate commodi. Dolore quibusdam fugiat consequuntur architecto, ut animi cumque ratione, ullam itaque odit saepe quis atque repellendus esse doloribus necessitatibus facilis aperiam reiciendis corporis beatae nobis quas? Laborum, nemo. Officiis possimus vel minus iusto nulla, provident rem atque nemo excepturi perspiciatis qui, voluptatum placeat? Tempora, sint voluptates? Incidunt, odit suscipit. Odio, voluptas excepturi. Excepturi sapiente nesciunt cupiditate veniam veritatis, dolores rerum quae praesentium id molestiae illo!
+                </p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea  rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Busniess Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+<!-- footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae alias doloremque quam <br> quae molestiae totam labore laboriosam quia laudantium. Quos.</p>
+    <div class="icons">
+        <a href="" class="fa fa-facebook"></a>
+        <a href="" class="fa fa-twitter"></a>
+        <a href="" class="fa fa-instagram"></a>
+        <a href="" class="fa fa-linkedin"></a>
+        
+    </div>
+    <p>MADE WITH  <a href="" class="fa fa-heart-o"></a> BY SHIVAM SINGH</p>
+
+</section>
+
+     <!-- javascript -->
+     <script>
+         var navlinks = document.getElementById(navlinks);
+         function showmenu(){
+             navlinks.style.right = "0"
+         }
+         
+         function hidemenu(){
+             navlinks.style.right = "-200px"
+         }
+     </script>
+     
+</body>
+</html>
